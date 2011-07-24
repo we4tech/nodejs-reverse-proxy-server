@@ -1,12 +1,15 @@
 var configuration = {
 
   // Fix: Not yet static file serving supports
-  rootDirectory: '/Users/hasan/proj_welltreat.us/public',
+  // FIX: Make it multi domain supports  
 
   // Setup backend server for the given server host regex
   virtualHosts: {
-    '.+': [
-      {host: 'localhost', port: 3000}
+	'herry\.com\.sa': [
+		{host: 'localhost', port: 3000, rootDir: '/Users/hasan/projects/tasawr-car-rental/public'}
+	],
+    'hadok': [
+      {host: 'localhost', port: 3000, rootDir: '/Users/hasan/proj_welltreat.us/public'}
     ]
   },
 

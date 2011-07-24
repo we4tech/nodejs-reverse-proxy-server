@@ -7,7 +7,7 @@ var cluster = require('cluster'),
 configuration.nodeCache = nodeCache;
 
 cluster(server(configuration))
-  //.use(cluster.logger('logs'))
+//  .use(cluster.logger('logs'))
   .use(cluster.stats())
   .use(cluster.pidfiles('pids'))
   .use(cluster.cli())
