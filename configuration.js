@@ -10,6 +10,15 @@ var configuration = {
 	],
     'hadok': [
       {host: 'localhost', port: 3000, rootDir: '/Users/hasan/proj_welltreat.us/public'}
+    ],
+	'hasansmac|servicedev1': [
+      {host: 'localhost', port: 3000, rootDir: '/Users/hasan/projects/TasawrSingleSignOnService/public'}
+    ],
+	'scuttlehub.com': [
+      {host: 'localhost', port: 3000, rootDir: '/Users/hasan/projects/StackBuilders/scuttlehub-mobile/public'}
+    ],
+	'static.sh.com': [
+      {host: 'localhost', port: 3000, rootDir: '/Users/hasan/projects/StackBuilders/scuttlehub-mobile/sencha-touch-1.1.0/examples/forms'}
     ]
   },
 

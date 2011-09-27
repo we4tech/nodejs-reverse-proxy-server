@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-/usr/bin/env node start.js
+nohup /usr/bin/env node start.js &
